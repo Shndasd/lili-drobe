@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  --color-cream-50: #FAF8F5;
+  --color-cream-100: #F3EFEA;
+  --color-cream-200: #E7E0D6;
+  --color-paper: #F6F3EE;
+  --color-ink: #141210;
+  --color-ink-muted: #57524D;
+  --color-tobacco: #7C5C3B;
+  --color-tobacco-dark: #4A3723;
+  --color-rust: #9E472A;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #FAF8F5;
+  color: #141210;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-numbers {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar for clean vintage luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9D2C7;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A69E92;
+}
+

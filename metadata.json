@@ -1,0 +1,6 @@
+{
+  "name": "LILI DROBE | Vintage & Streetwear Archive",
+  "description": "Curated vintage, second-hand, and premium stock streetwear clothing archive. Rare 90s drops, distressed denim, heavyweight hoodies, and archive jackets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
